@@ -1,3 +1,3 @@
 # Spring3MVC
 
-Powered by @SilvanoGil Pérez 2019-2020
+Powered by @SilvanoGil 2019-2020
