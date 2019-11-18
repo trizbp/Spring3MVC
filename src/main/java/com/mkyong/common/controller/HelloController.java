@@ -13,7 +13,6 @@ public class HelloController {
 /**
  @author bpm
  @return devuelve hello
- @param model
 */
 @RequestMapping(method = RequestMethod.GET)
 public String printWelcome(final ModelMap model) {
