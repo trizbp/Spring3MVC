@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/welcome")
 public class HelloController {
  /**
- Método que dice Hola
+ @author bpm
+ @return devuelve hello
+ @param model
  */
 @RequestMapping(method = RequestMethod.GET)
 public String printWelcome(final ModelMap model) {
