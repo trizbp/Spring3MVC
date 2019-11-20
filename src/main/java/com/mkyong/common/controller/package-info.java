@@ -7,4 +7,3 @@ package com.mkyong.common.controller;
  * @author jwhite
  * @version 1.1
  */
-package com.intertech.cms.domain;
