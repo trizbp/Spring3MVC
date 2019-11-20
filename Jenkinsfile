@@ -23,7 +23,7 @@ pipeline {
     post { 
         always { 
             echo 'J3'
-	    echo ("%JOB_NAME% %BUILD_NUMBER%")
+	    echo (%JOB_NAME& %BUILD_NUMBER%)
         }
         success{
             echo 'J4'
