@@ -4,6 +4,9 @@ pipeline {
         jdk 'LocalJDK8'
     }
     agent any
+    triggers {
+        pollSCM(* * * * *) }
+    }
     stages {
 	    stage('J1') {
     	    steps {
