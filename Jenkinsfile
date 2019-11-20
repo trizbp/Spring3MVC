@@ -23,7 +23,7 @@ pipeline {
     post { 
         always { 
             echo 'J3'
-		echo "${env.JOB_NAME} + ${env.BUILD_NUMBER}"
+		echo "${env.JOB_NAME} - ${env.BUILD_NUMBER}"
         }
         success{
             echo 'J4'
